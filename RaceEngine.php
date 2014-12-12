@@ -1,0 +1,1 @@
+<?phprequire_once('EngineInterface.php');class RaceEngine implements EngineInterface{	private $hp;		public function __construct()	{		$this->hp = 386;	}		public function getHP()	{		return $this->hp;	}}
